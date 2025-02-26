@@ -4,8 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.typekit.net/fhj0cjv.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">   
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Yesteryear&display=swap" rel="stylesheet">
@@ -13,17 +15,20 @@
 
 </head>
 <body>
+    <!--------------------------------------Nav section----------------------------------------------------->
     <div class="navBar">
         <div class="bg-image"></div> 
         <div class="overlay"></div> 
 
         <div class="navTop">
             <ul class="navElement">
-                <li class="nav-item">Home</li>
-                <li class="nav-item">About</li>
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#destination">Destinations</a></li>
                 <li id="logo">ExploreNepal</li>
-                <li class="nav-item">Contact</li>
-                <li class="nav-item">Gallery</li>
+                <li class="nav-item"><a href="#Reviews" >Reviews</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+                <li class="nav-item"><a href="#">Blog</a></li>
             </ul>
             <button class="fixed-btn">
                 <img class="search" src="./icon/search.png" alt="search">
@@ -41,10 +46,127 @@
             </div>
         </div>
     </div>
-    <div class="About-container">
+    <!--------------------------------------About Section----------------------------------------------------->
+    <div id="about" class="About-container">
+        <div class="about-design"></div>
         <div class="about-text">
             <h1 class="about-heading">About Us</h1>
-            <p class="about-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis soluta, a rerum delectus in vero nam, nobis dolorem harum quaerat corrupti voluptas earum laboriosam minus dolore, voluptate et officiis quisquam!</p>
+            <img class="discover-icon" src="icon/binoculars.png" alt="discover">
+            <h2 class="about-subtitle">Discover, Explore, Experience</h2>
+            <p class="about-paragraph">Nepal is more than just a destination; it's an experience waiting to be discovered. From the towering peaks of the Himalayas to the serene beauty of lush valleys, every corner of Nepal has a story to tell. Immerse yourself in rich cultures, ancient heritage, and breathtaking landscapes as you embark on unforgettable journeys. Whether you're an adventure seeker, a cultural explorer, or someone looking for peace in nature,<b> Explore Nepal</b> is here to guide you. Travel responsibly, connect with local communities, and create memories that last a lifetime. Your adventure begins here—let’s explore Nepal together!</p>
+            <img class="leadership-icon" src="icon/leadership.png" alt="discover">
+            <h2 class="about-subtitle1">Our Mission & Values</h2>
+            <p class="about-paragraph1">At <b>Explore Nepal</b>, our mission is to make travel simple, meaningful, and responsible. We believe in promoting sustainable tourism by encouraging eco-conscious travel habits that help protect Nepal’s environment and cultural heritage. We also support local businesses by connecting travelers with authentic Nepali experiences, from staying in traditional homes to exploring markets run by local artisans.
+                Accuracy and reliability are at the core of our values. Our content is thoroughly researched to provide the latest travel updates, insider tips, and essential information to help you travel with confidence. More than just a guide, we are a community of travelers passionate about celebrating Nepal’s beauty, history, and warm hospitality.</p>
+        </div>
+        <div class="flex">
+            <div class="flex-item">
+                <h1>5</h1>
+                <p>Years of experience</p>
+            </div>
+            <div class="flex-item">
+                <h1>10000+</h1>
+                <p>Satisfied clients</p>
+            </div>
+            <div class="flex-item">
+                <h1>77</h1>
+                <p>Districts covered</p>
+            </div>
+            <div class="flex-item">
+                <h1>⭐4.9⭐</h1>
+                <p>Avarage  rating</p>
+            </div>
+        </div>
     </div>
-</body>
+    <!--------------------------------------Destination Section----------------------------------------------------->
+  <div id="destination" class="destination">
+     <div class="destination-heading">
+        <h1>Top Destinations</h1>
+        <p>Discover the beauty of Nepal's seven provinces, each offering unique landscapes, cultures, and adventures.</p>
+     </div>
+     <div class="destination-container">
+        <div class="destination-provinces">
+            <button id="Koshi" class="provinces">Koshi</button>
+            <button id="Madhesh" class="provinces">Madhesh</button>
+            <button id="Bagmati" class="provinces">Bagmati</button>
+            <button id="Gandaki" class="provinces">Gandaki</button>
+            <button id="Lumbini" class="provinces">Lumbini</button>
+            <button id="Karnali" class="provinces">Karnali</button>
+            <button id="Sudurpashchim" class="provinces">Sudurpashchim</button>
+        </div>
+        <div class="destination-place">
+            <div class="place1">
+                <div class="img-design"></div>
+                 <img src="imgs/everest.jpg" alt="everest">
+                 <div class="place-text">
+                    <h2>Everest Base Camp</h2>
+                 <p>Everest Base Camp is a dream destination for adventure seekers, offering breathtaking views of the world’s highest peak, Mount Everest. Located in the Himalayas, this legendary trekking route takes you through picturesque Sherpa villages, ancient monasteries, and rugged mountain landscapes. Trekkers experience the thrill of high-altitude hiking while witnessing the Khumbu Glacier and Everest’s towering beauty up close. Whether you seek adventure or a spiritual journey, Everest Base Camp promises an unforgettable experience in the heart of the Himalayas.</p>
+                 </div>  
+            </div>
+            <div class="place2">
+                <div class="place-text1">
+                    <h2>Koshi Tappu Wildlife Reserve</h2>
+                 <p>Koshi Tappu Wildlife Reserve is a paradise for nature lovers and bird watchers, offering a unique blend of rich biodiversity and scenic beauty. Located in the eastern Terai region of Nepal, this wetland sanctuary is home to over 500 species of birds, including rare migratory species, making it a dream destination for bird enthusiasts. Visitors can also spot endangered wildlife such as the wild water buffalo (Arna) and Gangetic dolphins while exploring the lush grasslands and tranquil Koshi River. Whether you're seeking an adventurous jungle safari or a peaceful retreat into nature, Koshi Tappu promises an unforgettable experience amidst Nepal’s stunning wilderness.</p>
+                 </div> 
+                
+                 <img src="imgs/koshi-tappu (1).jpg" alt="everest">
+                 <div class="img-design"></div>       
+            </div>
+            <div class="place1">
+                <div class="img-design"></div>
+                 <img src="imgs/pathivara.jpg" alt="everest">
+                 <div class="place-text">
+                    <h2>Pathivara Temple</h2>
+                 <p>Pathivara Temple is a sacred Hindu pilgrimage site located in the Taplejung district of eastern Nepal. Perched at an altitude of 3,794 meters, it is dedicated to Goddess Pathivara, believed to fulfill the wishes of devotees. The temple attracts thousands of pilgrims, especially from Nepal and India, seeking blessings for prosperity and protection. The journey to Pathivara involves a scenic trek through lush rhododendron forests, offering breathtaking views of the Kanchenjunga range. Whether for religious devotion or adventure, Pathivara Temple is a serene and spiritually uplifting destination.                 </p>
+                 </div>  
+            </div>
+        </div>
+     </div>
+         
+  </div>
+    <!--------------------------------------footer Section----------------------------------------------------->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>ExploreNepal</h2>
+                <p>Unforgettable Adventures in the Himalayas</p>
+            </div>
+    
+            <div class="footer-links">
+                <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="#"><i class="fa-solid fa-user"></i> About</a>
+                <a href="#"><i class="fa-solid fa-Globe"></i> Destinations</a>
+                <a href="#"><i class="fa-solid fa-blog"></i> Blog</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
+            </div>
+            
+    
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+    
+            <div class="footer-contact">
+                <p>Email: explore.nepal.local@explorenepal.com</p>
+                <p>Phone: +977-027796683</p>
+                <p>Itahari,Sunsari,VAC</p>
+            </div>
+            
+        <div class="footer-map">
+            <h1>Track Nearby Destination</h1>
+            <iframe src="https://www.google.com/maps/embed?...YOUR_LOCATION..." width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        </div>
+        
+        
+    
+        <div class="footer-bottom">
+            <p>© 2025 ExploreNepal. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+    </body>
 </html>
